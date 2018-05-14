@@ -1,0 +1,33 @@
+Angular JS
+==========
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template
+language and lets you extend HTML's syntax to express your application's components clearly and succinctly. 
+AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.
+
+ToDo
+====
+1. Created a common controller for template which provides event handlers.(FormController).
+2. All the entries are stored in browser localStorage via LocalStorage service.
+3. Inline edit form  and completed entries Controlled by ng-show and ng-hide expression directive.
+4. My entries section  loaded through ng-repeat directive.
+
+Search
+======
+It has been implemented through Angular JS filters.
+
+All the inputs recived to ng-repeat through ng-model and it will filter the
+results
+
+Popup
+======
+It has been implemented by using simple overlay css and its controled by ng-show and ng-hide expression directive.
+
+Sanitise
+========
+Removed extra spaces using string replace with regular expression.
+
+For limit word charcters,
+After removed extra sapces, Splited (delimeter as space) the text into array 
+then iterate the array get the charecters count, trimmed if execd the limit and
+joined the trimmed words.
+
