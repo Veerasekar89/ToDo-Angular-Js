@@ -24,7 +24,7 @@ How To Use
 	Type "fr" : whole list
 	Type "friend" : Entry A
 	Type 'swim'   : Entry B
-	Type "shopping" : Empty
+	Type "shopping" : Empty.
 4. On Mouseover  in each row Assoicated description will shown in tooltip.
 5. If you need to delete any entry you should mark as complete( Select checkbox).
 
